@@ -1,7 +1,7 @@
 :root {
-  --dark: #424242;
+  --dark: #2c2b2b;
   --light: #F2F1F1;
-  --green: #04BC01;
+  --green: #058e03;
   --lightGreen: #60FF5D;
 }
 
@@ -19,17 +19,32 @@ header {
 main {
   background-color: var(--dark);
   color: var(--light);
-  padding: 2em;
+  padding: 0 5vw;
+}
+
+footer {
+  padding: 2em 2em 0 2em;
 }
 
 button {
   background-color: var(--green);
   border: unset;
   border-radius: 20px;
+  height: 3em;
+  cursor: pointer;
+  color: var(--light);
+  font-weight: bolder;
+  padding: 0px 1em;
 }
 
-img {
-  width: 100%;
+a {
+  color: unset;
+  text-decoration: unset;
+  font-weight: bolder;
+}
+
+h4 {
+  color: var(--lightGreen);
 }
 
 .d-flex {
@@ -38,6 +53,22 @@ img {
 
 .w-50p {
   width: 50%;
+}
+
+.w-25p {
+  width: 25%;
+}
+
+.w-33p {
+  width: 33%;
+}
+
+.w-100p {
+  width: 100%;
+}
+
+.m-2em {
+  margin: 2em;
 }
 
 .f-columns {
@@ -56,10 +87,24 @@ img {
   justify-content: space-around;
 }
 
-.nav-logo {
-  width: 25%;
+.align-center {
+  align-items: center;
+}
+
+.underline {
+  text-decoration: underline;
 }
 
 .nav-links {
-  width: 25%;
+  padding: 1em;
+}
+
+.bottom-text {
+  margin: 1em;
+}
+
+@media (max-width:810px) {
+  #world-img {
+    display: none;
+  }
 }
