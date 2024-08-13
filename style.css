@@ -1,13 +1,47 @@
+:root {
+  --dark: #424242;
+  --light: #F2F1F1;
+  --green: #04BC01;
+  --lightGreen: #60FF5D;
+}
+
 body {
-  flex-direction: column;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
   padding: 1em;
+  background-color: var(--dark);
+  color: var(--light);
+}
+
+main {
+  background-color: var(--dark);
+  color: var(--light);
+  padding: 2em;
+}
+
+button {
+  background-color: var(--green);
+  border: unset;
+  border-radius: 20px;
+}
+
+img {
+  width: 100%;
 }
 
 .d-flex {
   display: flex;
+}
+
+.w-50p {
+  width: 50%;
+}
+
+.f-columns {
+  flex-direction: column;
 }
 
 .justify-between {
@@ -16,6 +50,10 @@ header {
 
 .justify-evenly {
   justify-content: space-evenly;
+}
+
+.justify-around {
+  justify-content: space-around;
 }
 
 .nav-logo {
