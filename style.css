@@ -1,0 +1,27 @@
+body {
+  flex-direction: column;
+}
+
+header {
+  padding: 1em;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.nav-logo {
+  width: 25%;
+}
+
+.nav-links {
+  width: 25%;
+}
